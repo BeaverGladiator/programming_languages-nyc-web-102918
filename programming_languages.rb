@@ -10,7 +10,6 @@ def reformat_languages(languages)
       new_hash[language][:style] = []
     end
   end
-  binding.pry
   
   languages.each do |style, data|
     data.each do |language, data|

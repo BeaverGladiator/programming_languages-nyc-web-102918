@@ -6,14 +6,15 @@ def reformat_languages(languages)
   languages.each do |style, data|
     data.each do |language, data|
       new_hash[language] = data
+      new_hash[language][:style] = style
     end
   end
   
   
-  languages.each do |style, data|
-    data.each do |language, data|
-      binding.pry
-    end
-  end
+  # languages.each do |style, data|
+  #   data.each do |language, data|
+      
+  #   end
+  # end
   
 end

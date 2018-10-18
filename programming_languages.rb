@@ -11,10 +11,11 @@ def reformat_languages(languages)
   end
   
   
-  # languages.each do |style, data|
-  #   data.each do |language, data|
-      
-  #   end
-  # end
+  languages.each do |style, data|
+    data.each do |language, data|
+      binding.pry
+    end
+  end
+  
   new_hash
 end
